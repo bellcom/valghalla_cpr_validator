@@ -73,6 +73,9 @@ function valghalla_cpr_service_dummy_settings(){
  *  )
  */
 function valghalla_cpr_service_dummy_validate_cpr($cpr){
+  //
+  // Here you can do all sorts of validation.
+  //
   return array(
     'status' => FALSE,
     'text' => 'Det er ikke et dansk CPR-nummer',
